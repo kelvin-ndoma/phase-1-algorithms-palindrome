@@ -1,5 +1,10 @@
 function isPalindrome(word) {
   // Write your algorithm here
+    // Write a function isPalindrome that will receive one argument, a string.
+  // Your function should return true if the string is a palindrome
+  // (that is, if it reads the same forwards and backwards, like "mom" or "racecar"),
+  // and return false if it is not a palindrome.
+  return word === word.split("").reverse().join("");
 }
 
 /* 
